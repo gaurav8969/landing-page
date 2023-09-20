@@ -33,7 +33,7 @@ img {
     padding:0;
     margin:0;
     color:hsl(169, 80%, 55%);
-
+    /*adding this comment to push this change to cloud again, since it is not to be seen on phone*/ 
 }
 
 .header-links {
