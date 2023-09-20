@@ -49,6 +49,10 @@ img {
     align-items:center;
 }
 
+a {
+    color:white;
+}
+
 .hypertext {
     display:flex;
     flex-direction:column;
@@ -119,9 +123,40 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
+    color:white;
 }
 
 .button-container {
+    display:flex;
+    align-items:center;
+    gap:40px;
     background-color: #3882F6;
-    padding:20px 100px;
+    padding:30px 100px;
+    border-radius:15px;
+}
+
+.button-text {
+    margin: 0;
+    padding:0;
+}
+
+.button-text.description {
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.sign-up {
+    width:80px;
+    height:30px;
+    border:2px solid white;
+    border-radius:15px;
+    background-color: #3882F6;
+}
+.footer {
+    display:flex;
+    height:55px;
+    justify-content: center;
+    align-items:center;
+    background-color: #1F2937;
+    color:white;
 }
