@@ -29,6 +29,10 @@ img {
     align-items:center;
 }
 
+.header-links {
+    color:aquamarine;
+}
+
 .name {
     padding:0;
     margin:0;
