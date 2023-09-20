@@ -32,6 +32,8 @@ img {
 .name {
     padding:0;
     margin:0;
+    color:hsl(169, 80%, 55%);
+
 }
 
 .header-links {
@@ -54,7 +56,7 @@ a {
 }
 
 .mojo-login {
-    margin-top:10px;
+    margin-top:13px;
     font-weight:bolder;
     background-color:#3882f6;
     border: 2px solid white;
@@ -68,7 +70,12 @@ a {
     display:flex;
     flex-direction:column;
     align-items:flex-start;
+    font-size:22px;
 
+}
+
+.hypertext h1 {
+    font-size:40px;
 }
 
 .billboard {
@@ -169,6 +176,10 @@ a {
     border:2px solid white;
     border-radius:15px;
     background-color: #3882F6;
+}
+
+.sign-up a {
+    color:white;
 }
 .footer {
     display:flex;
