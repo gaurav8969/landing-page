@@ -105,6 +105,18 @@ a {
     width:160px;
 }
 
+.homage.design{
+    margin-left:20px;
+}
+
+.homage.furnishing{
+    margin-left:45px;
+}
+
+.homage.refurbishing{
+    margin-left:130px;
+}
+
 .heading {
     margin:25px auto;
 }
@@ -175,7 +187,7 @@ a {
 }
 
 .sign-up {
-    width:80px;
+    width:200px;
     height:30px;
     border:2px solid white;
     border-radius:15px;
